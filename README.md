@@ -8,6 +8,7 @@ mvn clean compile
 ```
 ## Building the image
 The server requires a docker image in order to run compilation and/or execution requests.
+
 One can either pull an image with some compilers installed:
 
 ```docker pull salmanebah/pdp-compile-platform-img```
