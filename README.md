@@ -45,11 +45,13 @@ For example, to use the ```threadsNumber``` option:
 ```mvn exec:java -Dexec.mainClass="pdp.compileplatform.frontend.EntryPoint" -Dexec.args="--threadsNumber 4" ```
 
 **NOTE:** the option ```--dockerMemLimit``` requires the following:
+
 1. Change ```/etc/default/grub``` by adding:
 ```GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1```
-2. Update grub:
-```update-grub```
+
+2. Update grub: ```update-grub```
 3. Restart for the change to take effect.
+
 ## Example with python and suds library
 ```python
 #! /usr/bin/env python
