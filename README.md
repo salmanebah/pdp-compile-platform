@@ -41,6 +41,7 @@ The server handles requests from port ```8888```.
 --help : show this help
 ```
 For example, to use the ```threadsNumber``` option:
+
 ```mvn exec:java -Dexec.mainClass="pdp.compileplatform.frontend.EntryPoint" -Dexec.args="--threadsNumber 4" ```
 
 **NOTE:** the option ```--dockerMemLimit``` requires the following:
