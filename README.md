@@ -52,7 +52,7 @@ For example, to use the ```threadsNumber``` option:
 2. Update grub: ```update-grub```
 3. Restart for the change to take effect.
 
-## Example with python and suds library
+## A client example with python and the suds library
 ```python
 #! /usr/bin/env python
 
